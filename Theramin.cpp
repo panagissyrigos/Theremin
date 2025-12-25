@@ -314,7 +314,6 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) {
 // WASAPI setup/teardown
 // ------------------------------
 
-// Replace your ShutdownWASAPI with this:
 void ShutdownWASAPI() {
     gWASAPI.running.store(false);
 
